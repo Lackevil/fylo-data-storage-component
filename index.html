@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <article class="storage">
+          <div class="storage__actions">
+            <a href="/" class="storage__logo">
+              <img
+                src="images/logo.svg"
+                alt="Fylo logo"
+                width="135"
+                height="40"
+              />
+            </a>
+            <div class="storage__buttons">
+              <button class="storage__btn" aria-label="Document">
+                <img src="images/icon-document.svg" alt="" />
+              </button>
+              <button class="storage__btn" aria-label="Folder">
+                <img src="images/icon-folder.svg" alt="" />
+              </button>
+              <button class="storage__btn" aria-label="Upload">
+                <img src="images/icon-upload.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="storage__data">
+            <p class="storage__text">
+              You’ve used <span>815 GB</span> of your storage
+            </p>
+            <div class="storage__left"><span>185</span> gb left</div>
+            <div
+              class="storage__indicator indicator"
+              role="progressbar"
+              aria-valuenow="815"
+              aria-valuemin="0"
+              aria-valuemax="1000"
+              aria-label="Storage used"
+            >
+              <div class="indicator__memory"></div>
+            </div>
+            <div class="storage__gb">
+              <span>0 GB</span>
+              <span>1000 GB</span>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
