@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution]()
-- Live Site URL: [live]()
+- Solution URL: [solution](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n)
+- Live Site URL: [live](https://lackevil.github.io/fylo-data-storage-component/)
 
 ### Built with
 
